@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Auth-I\\Interfer-AuthService\\AuthService_Interfer.Domain\\AuthService_Interfer.Domain.csproj": {}
+    "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Domain\\AuthService_Interfer.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Auth-I\\Interfer-AuthService\\AuthService_Interfer.Domain\\AuthService_Interfer.Domain.csproj": {
+    "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Domain\\AuthService_Interfer.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Auth-I\\Interfer-AuthService\\AuthService_Interfer.Domain\\AuthService_Interfer.Domain.csproj",
+        "projectUniqueName": "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Domain\\AuthService_Interfer.Domain.csproj",
         "projectName": "AuthService_Interfer.Domain",
-        "projectPath": "C:\\Auth-I\\Interfer-AuthService\\AuthService_Interfer.Domain\\AuthService_Interfer.Domain.csproj",
+        "projectPath": "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Domain\\AuthService_Interfer.Domain.csproj",
         "packagesPath": "C:\\Users\\Cambiar Nombre\\.nuget\\packages\\",
-        "outputPath": "C:\\Auth-I\\Interfer-AuthService\\AuthService_Interfer.Domain\\obj\\",
+        "outputPath": "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Cambiar Nombre\\AppData\\Roaming\\NuGet\\NuGet.Config"

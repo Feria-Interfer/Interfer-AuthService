@@ -1,17 +1,217 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Auth-I\\Interfer-AuthService\\AuthService_Interfer.Api\\AuthService_Interfer.Api.csproj": {}
+    "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Api\\AuthService_Interfer.Api.csproj": {}
   },
   "projects": {
-    "C:\\Auth-I\\Interfer-AuthService\\AuthService_Interfer.Api\\AuthService_Interfer.Api.csproj": {
+    "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Api\\AuthService_Interfer.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Auth-I\\Interfer-AuthService\\AuthService_Interfer.Api\\AuthService_Interfer.Api.csproj",
+        "projectUniqueName": "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Api\\AuthService_Interfer.Api.csproj",
         "projectName": "AuthService_Interfer.Api",
-        "projectPath": "C:\\Auth-I\\Interfer-AuthService\\AuthService_Interfer.Api\\AuthService_Interfer.Api.csproj",
+        "projectPath": "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Api\\AuthService_Interfer.Api.csproj",
         "packagesPath": "C:\\Users\\Cambiar Nombre\\.nuget\\packages\\",
-        "outputPath": "C:\\Auth-I\\Interfer-AuthService\\AuthService_Interfer.Api\\obj\\",
+        "outputPath": "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Cambiar Nombre\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Application\\AuthService_Interfer.Application.csproj": {
+                "projectPath": "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Application\\AuthService_Interfer.Application.csproj"
+              },
+              "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Persistence\\AuthService_Interfer.Persistence.csproj": {
+                "projectPath": "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Persistence\\AuthService_Interfer.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "EFCore.NamingConventions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.20, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "NetEscapades.AspNetCore.SecurityHeaders": {
+              "target": "Package",
+              "version": "[1.3.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.418/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Application\\AuthService_Interfer.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Application\\AuthService_Interfer.Application.csproj",
+        "projectName": "AuthService_Interfer.Application",
+        "projectPath": "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Application\\AuthService_Interfer.Application.csproj",
+        "packagesPath": "C:\\Users\\Cambiar Nombre\\.nuget\\packages\\",
+        "outputPath": "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Cambiar Nombre\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Domain\\AuthService_Interfer.Domain.csproj": {
+                "projectPath": "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Domain\\AuthService_Interfer.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.28.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "Konscious.Security.Cryptography.Argon2": {
+              "target": "Package",
+              "version": "[1.3.1, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.14.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.15.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.15.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.418/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Domain\\AuthService_Interfer.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Domain\\AuthService_Interfer.Domain.csproj",
+        "projectName": "AuthService_Interfer.Domain",
+        "projectPath": "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Domain\\AuthService_Interfer.Domain.csproj",
+        "packagesPath": "C:\\Users\\Cambiar Nombre\\.nuget\\packages\\",
+        "outputPath": "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Cambiar Nombre\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,14 +242,91 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.418/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Persistence\\AuthService_Interfer.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Persistence\\AuthService_Interfer.Persistence.csproj",
+        "projectName": "AuthService_Interfer.Persistence",
+        "projectPath": "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Persistence\\AuthService_Interfer.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Cambiar Nombre\\.nuget\\packages\\",
+        "outputPath": "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Cambiar Nombre\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Application\\AuthService_Interfer.Application.csproj": {
+                "projectPath": "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Application\\AuthService_Interfer.Application.csproj"
+              },
+              "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Domain\\AuthService_Interfer.Domain.csproj": {
+                "projectPath": "C:\\Auth-I\\Interfer-AuthService\\src\\AuthService_Interfer.Domain\\AuthService_Interfer.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.24, )"
+              "version": "[9.0.9, )"
             },
-            "Swashbuckle.AspNetCore": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.6.2, )"
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
             }
           },
           "imports": [
@@ -64,9 +341,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
