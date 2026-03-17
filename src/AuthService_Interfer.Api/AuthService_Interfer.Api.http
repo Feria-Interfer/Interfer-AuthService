@@ -1,0 +1,6 @@
+@AuthService_Interfer.Api_HostAddress = http://localhost:5239
+
+GET {{AuthService_Interfer.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
